@@ -1,6 +1,5 @@
 html {
-    width: 100%;
-    height: 100%;
+    font-size: 16px;
 }
 
 * {
@@ -9,11 +8,126 @@ html {
 }
 
 body {
-    width: 75%;
-    height: 100%;
-    border: 1px dotted black;
+    width: 100%;
+    border: 2px dotted red;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
 }
 
-.container {
-    background-color: antiquewhite;
+div {
+    display: block'
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.1;
+}
+
+.nav-bar {
+    background-color: transparent;
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+    color: #f0f0f0;
+}
+
+.logo img {
+    display: block;
+    height: 31px;
+    width: 155px;
+}
+
+.main-menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.main-menu li a {
+    font-size: 1rem;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.section-1 {
+    background-image: url(img/bruce-hong-556211-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.section-2 {}
+
+.orange {
+    color: #ff7f3b;
+}
+
+.green {
+    color: #bcd436;
+}
+
+.learn-more-btn {
+    text-align: center;
+    width: 100%;
+    vertical-align: middle;
+    margin: 5px;
+    padding: 10px;
+}
+
+.blog-post {
+    color: white;
+    display: block;
+    margin: 40px;
+    padding: 50px;
+}
+
+.button-grn {
+    background: #bdd436;
+    border: 2px solid #bdd436;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 11px 36px;
+    border-radius: 25px;
+}
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    width: 400px;
+}
+
+.heading {
+    font-size: 8rem;
+    display: block;
+}
+
+.sub {
+    font-size: 18px;
+    display: block;
+    text-transform: none;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: relative;
+    font-weight: 500;
 }
